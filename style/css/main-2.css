@@ -1,0 +1,377 @@
+.main-page-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.courses-explanation-links {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.courses-title {
+  margin: 25px 0px 25px 0px;
+  text-align: center;
+  direction: rtl;
+  font-size: 2.9rem;
+  overflow: visible;
+}
+
+.main-section {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-evenly;
+  margin: 0px auto 70px auto;
+  max-width: 1400px;
+}
+
+.pros-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: url(../images/blue-diagonal-lines-bg.png) no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.video-container {
+  display: block;
+  direction: rtl;
+  width: 305px;
+  height: 215px;
+  margin: -105px auto 0px auto;
+  box-shadow: 3px 3px 7px 0 rgba(139, 145, 147, 0.4);
+}
+
+.video-img {
+  margin: 2px;
+  width: 300px;
+  height: 170px;
+}
+
+.video-more-detail > span {
+  margin-left: 0.4rem;
+}
+
+.how-it-work-explain {
+  direction: rtl;
+  display: flex;
+  flex-flow: column;
+  margin: 0px 10px;
+  font-size: 1rem;
+}
+
+.how-it-work-explain > p {
+  padding: 0px 20px;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.title {
+  font-size: 2.9rem;
+  direction: rtl;
+  margin: 0px;
+  text-align: center;
+}
+
+.process-char {
+  margin-top: 80px;
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.how-it-work-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: #e4e4e4;
+}
+
+.make-appointment-button {
+  padding: 0px;
+  align-self: center;
+  height: 65px;
+  width: 296px;
+  margin-top: 10px;
+  background: #213a7f;
+  border: none;
+  margin-bottom: 50px;
+  align-self: center;
+  margin: 40px auto 0px auto;
+}
+
+.make-appointment-button:focus {
+  border: none;
+  outline: none;
+}
+
+.make-appointment-button:hover {
+  cursor: pointer !important;
+}
+
+.make-appointment-inner-box {
+  display: flex;
+  border: 2px solid #aad6be;
+  justify-content: center;
+  align-items: center;
+  height: 96%;
+  width: 99%;
+  margin: 1px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pros-section-title {
+  display: block;
+  direction: rtl;
+  position: relative;
+  font-size: 2.9rem;
+  text-align: center;
+}
+
+@media (min-width: 925px) {
+  .courses-title {
+    position: relative;
+    text-align: start;
+    margin-right: 65px;
+    margin-top: -80px;
+  }
+  .pros-section-title {
+    position: unset;
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 10px;
+  }
+  .advantage-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    max-width: 1260px;
+  }
+  #pros-section > .section-container {
+    padding-top: 15px;
+  }
+  .section-text {
+    display: block;
+    direction: rtl;
+    max-width: 1130px;
+    margin: 0px auto;
+  }
+  .pros-section {
+    height: 70%;
+    margin: 0px;
+    padding-bottom: 0px;
+    box-shadow: 10px 50px 100px black;
+    display: flex;
+    justify-content: center;
+  }
+  .video-container {
+    align-self: center;
+    margin-right: 570px;
+    margin-left: 20px;
+    z-index: 50;
+  }
+  .how-it-work-explain {
+    flex-flow: row;
+    width: 100%;
+  }
+  .how-it-work-explain {
+    align-self: center;
+  }
+  .how-it-work-main-content {
+    display: flex;
+    flex-flow: column;
+    width: 925px;
+    align-self: center;
+  }
+  .how-it-work-main-content > .title {
+    margin-right: 0px;
+  }
+  .process-char {
+    margin-top: 80px;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.sub-banner {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.pro-text {
+  direction: rtl;
+  margin-right: 5px;
+}
+
+.blue-emphsis {
+  color: blue;
+}
+
+.other-places {
+  background: black;
+  color: white;
+}
+
+.difference {
+  direction: rtl;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.difference > ol > li {
+  font-size: 1.1rem;
+}
+
+.graduate-companys {
+  direction: rtl;
+  height: max-content;
+  background: white;
+  box-shadow: 50px 50px 50px #c2b9b0;
+}
+
+h2 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.graduate-companys > h2 {
+  color: black;
+}
+
+.difference > ol {
+  padding-right: 20px;
+}
+
+.at-ours {
+  background: #eff6df;
+  color: black;
+}
+
+.about-us-section {
+  direction: rtl;
+  background: #e4e4e4;
+}
+
+.section-container {
+  background: url(../images/blue-diagonal-lines-bg.png);
+  width: 100%;
+  padding: 50px 15px 60px 0px;
+}
+
+.firms-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.firm-logo {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 22px;
+  flex-shrink: 0;
+  object-fit: fill;
+}
+
+.paragraph-link {
+  display: inline;
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+}
+
+.paragraph-link:visited {
+  color: white;
+}
+
+.quations-answers-section {
+  background: #e4e4e4;
+}
+
+#quations-answers-section > .section-container {
+  background: #fff6df;
+}
+
+@media (min-width: 925px) {
+  .differences-section {
+    display: flex;
+    justify-content: center;
+  }
+  .difference {
+    width: 50%;
+    max-width: 550px;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.5s linear;
+  }
+  .difference:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 50px black;
+  }
+  .section-container {
+    padding: 10px;
+    padding-top: 65px;
+  }
+  .section-container > p {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .pro-text {
+    width: max-content;
+    direction: rtl;
+    text-align: start;
+    max-width: 1140px;
+  }
+  .sub-banner {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    width: 1110px;
+    position: relative;
+    left: 8px;
+    margin: 5px auto;
+  }
+  .section-inner-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .quations-answers-container {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+  .at-ours {
+    order: 1;
+  }
+  .other-places {
+    order: 2;
+  }
+  .flex-col-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+}

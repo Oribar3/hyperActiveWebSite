@@ -1,0 +1,61 @@
+.pros{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAP1AQMAAAAEpdAkAAAABlBMVEXt8vXp8PMayv0PAAADk0lEQVR42u3UMQHAIAADsH77UICQyZoHlOEEKVjY2SMRkaxyecpllMssl7dcvnI55bLLxYMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9OA/FyeQ9QbLaxohAAAAAElFTkSuQmCC) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 100%;
+    padding: 50px 15px 60px 0;
+    min-height: 100%;
+    .pros-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+#pros-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.difference {
+    direction: rtl;
+    padding: 10px;
+    margin: 10px 0;
+}
+.other-places {
+    background: #000;
+    color: #fff;
+}
+.at-ours {
+    background: #eff6df;
+    color: #000;
+}
+
+.blue{
+    color: blue;
+}
+
+@media (min-width: 925px){
+.difference {
+    width: 50%;
+    max-width: 550px;
+    margin: 10px;
+    padding: 10px;
+    transition: all .5s linear;
+}
+.difference:hover{
+    transform: scale(110%,110%);
+    box-shadow: 10px 10px 8px #888888;
+
+}
+.differences-section{
+    display: flex;
+    flex-direction: row;
+}
+.pros{
+    box-shadow: 10px 50px 100px #000;
+}
+}

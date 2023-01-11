@@ -1,0 +1,51 @@
+.banner{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+    height:130px ;
+    width: 100%;
+   background:linear-gradient(155deg,#154b9c ,#213b7f) !important;
+color: white;
+font-weight: 600;
+
+}
+.banner-text{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 50px;
+    direction: rtl;
+
+ 
+}
+.emphasis{
+    display: block;
+    font-weight: 800;
+font-size: 66px;
+direction: rtl;
+}
+@media(min-width:925px){
+.banner{
+    height:190px ;
+}
+.banner-text{
+    font-size: 90px;
+    line-height: .8;
+}
+.emphasis{
+
+font-size: 120px;
+}
+}
+@media (max-width:450px){
+    .banner-text{
+        font-size:  10vw;
+        line-height: 1;
+    }
+    .emphasis{
+        font-size:  15vw;
+   
+    }
+}
